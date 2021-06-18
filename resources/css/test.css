@@ -1,0 +1,51 @@
+/*  Header section */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+}
+
+header .content {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	height: 85px;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: solid 1px #c6c1c1;
+}
+
+.Navlogo {
+	text-decoration: none;
+	color: black;
+
+	padding-left: 30px;
+}
+
+.navigation {
+	list-style: none;
+	padding-right: 32px;
+	display: inline-flex;
+	justify-content: space-between;
+}
+.navigation li {
+	display: inline-block;
+	margin-left: 50px;
+}
+.navigation a {
+	text-decoration: none;
+	color: #4a4a4a;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.icon {
+	width: 1rem;
+	padding-left: .75rem;
+}
+.main-content {
+	margin-top: 85px;
+}
