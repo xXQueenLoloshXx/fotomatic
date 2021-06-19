@@ -7,7 +7,7 @@ html {
 	padding: 0;
 }
 
-/* Header */
+/* ============== Header ===================== */
 header .content {
 	position: fixed;
 	top: 0;
@@ -20,7 +20,9 @@ header .content {
 	align-items: center;
 	border-bottom: solid 1px #c6c1c1;
 }
-
+body {
+	margin: 0;
+}
 .Navlogo {
 	text-decoration: none;
 	color: black;
@@ -51,12 +53,14 @@ header .content {
 }
 .main-content {
 	margin-top: 85px;
+	width: 100%;
+	margin: 0;
 }
 
 header .mobile {
 	display: none;
 }
-/*    End of Header      */
+/* ========== End of Header ========== */
 
 .main-content {
 	margin-top: 85px;
@@ -126,6 +130,12 @@ header .mobile {
 	justify-content: flex-start;
 	align-items: flex-start;
 	height: 43.5rem;
+
+	margin: 0;
+	background-image: url('../images/banner-landingpage.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 #sign-up-cta {
@@ -133,6 +143,8 @@ header .mobile {
 	border: solid 1px #979797;
 	border-radius: 4px;
 	background-color: #9dc20b;
+	margin-left: 100px;
+	margin-top: 170px;
 }
 
 #sign-up-cta .content {
@@ -146,6 +158,7 @@ header .mobile {
 
 #sign-up-cta h1 {
 	font-size: 3.125rem;
+	margin-top: 0;
 }
 
 #sign-up-cta h2 {
@@ -158,11 +171,14 @@ header .mobile {
 
 #sign-up-cta .cursive {
 	font-family: "Damion", cursive;
+	margin-bottom: 0;
 }
 
 #sign-up-cta .striking {
 	font-family: "Rubik", sans-serif;
 	padding-bottom: .75rem;
+	margin-bottom: 0;
+	font-weight: 300;
 }
 
 #sign-up-cta .button {
